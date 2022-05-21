@@ -2,5 +2,12 @@
 
   "item.citadelmod.zorium_ingot": "Zorium Ingot",
   "item.citadelmod.zorium_nugget": "Zorium Nugget",
-  "item.citadelmod.raw_zorium": "Raw Zorium"
+  "item.citadelmod.raw_zorium": "Raw Zorium",
+
+
+
+  "block.citadelmod.zorium_ore": "Zorium Ore",
+  "block.citadelmod.deepslate_zorium_ore": "Deepslate Zorium Ore",
+  "block.citadelmod.zorium_block": "Zorium Block"
+
 }
