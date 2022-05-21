@@ -21,15 +21,15 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> ZORIUM_BLOCK = registerBlock("zorium_block",
             () -> new Block(BlockBehaviour.Properties.of(Material.METAL)
-                    .strength(7f,2).requiresCorrectToolForDrops()), CreativeModeTab.TAB_BUILDING_BLOCKS);
+                    .strength(2f,2).requiresCorrectToolForDrops()), CreativeModeTab.TAB_BUILDING_BLOCKS);
 
     public static final RegistryObject<Block> ZORIUM_ORE = registerBlock("zorium_ore",
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
-                    .strength(7f,2).requiresCorrectToolForDrops()), CreativeModeTab.TAB_BUILDING_BLOCKS);
+                    .strength(2f,2).requiresCorrectToolForDrops()), CreativeModeTab.TAB_BUILDING_BLOCKS);
 
-    public static final RegistryObject<Block> DEEPSLATE_ZORIUM_BLOCK = registerBlock("deepslate_zorium_block",
+    public static final RegistryObject<Block> DEEPSLATE_ZORIUM_ORE = registerBlock("deepslate_zorium_ore",
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
-                    .strength(7,3).requiresCorrectToolForDrops()), CreativeModeTab.TAB_BUILDING_BLOCKS);
+                    .strength(2f,3).requiresCorrectToolForDrops()), CreativeModeTab.TAB_BUILDING_BLOCKS);
 
 
 
