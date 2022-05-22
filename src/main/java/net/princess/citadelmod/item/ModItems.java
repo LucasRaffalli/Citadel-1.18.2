@@ -14,13 +14,16 @@ public class ModItems {
 
 
     public static final RegistryObject<Item> ZORIUM_INGOT = ITEMS.register("zorium_ingot",
-            () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.CITADEL_MOD)));
 
     public static final RegistryObject<Item> ZORIUM_NUGGET = ITEMS.register("zorium_nugget",
-            () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.CITADEL_MOD)));
 
     public static final RegistryObject<Item> RAW_ZORIUM = ITEMS.register("raw_zorium",
-            () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.CITADEL_MOD)));
+
+    public static final RegistryObject<Item> BURNING_RAW_ZORIUM = ITEMS.register("burning_raw_zorium",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.CITADEL_MOD)));
 
 
     public static void register(IEventBus eventBus){

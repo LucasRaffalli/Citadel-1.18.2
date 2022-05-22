@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "citadelmod:block/raw_zorium_block"
+  }
+}

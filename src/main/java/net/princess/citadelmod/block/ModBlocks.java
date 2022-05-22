@@ -11,6 +11,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.princess.citadelmod.CitadelMod;
+import net.princess.citadelmod.item.ModCreativeModeTab;
 import net.princess.citadelmod.item.ModItems;
 
 import java.util.function.Supplier;
@@ -21,15 +22,24 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> ZORIUM_BLOCK = registerBlock("zorium_block",
             () -> new Block(BlockBehaviour.Properties.of(Material.METAL)
-                    .strength(2f,2).requiresCorrectToolForDrops()), CreativeModeTab.TAB_BUILDING_BLOCKS);
+                    .strength(2f,2).requiresCorrectToolForDrops()), ModCreativeModeTab.CITADEL_MOD);
 
     public static final RegistryObject<Block> ZORIUM_ORE = registerBlock("zorium_ore",
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
-                    .strength(2f,2).requiresCorrectToolForDrops()), CreativeModeTab.TAB_BUILDING_BLOCKS);
+                    .strength(2f,2).requiresCorrectToolForDrops()), ModCreativeModeTab.CITADEL_MOD);
 
     public static final RegistryObject<Block> DEEPSLATE_ZORIUM_ORE = registerBlock("deepslate_zorium_ore",
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
-                    .strength(2f,3).requiresCorrectToolForDrops()), CreativeModeTab.TAB_BUILDING_BLOCKS);
+                    .strength(2f,3).requiresCorrectToolForDrops()), ModCreativeModeTab.CITADEL_MOD);
+
+
+    public static final RegistryObject<Block> RAW_ZORIUM_BLOCK = registerBlock("raw_zorium_block",
+            () -> new Block(BlockBehaviour.Properties.of(Material.METAL)
+                    .strength(2f,3).requiresCorrectToolForDrops()), ModCreativeModeTab.CITADEL_MOD);
+
+    public static final RegistryObject<Block> BURNING_RAW_ZORIUM_BLOCK = registerBlock("burning_raw_zorium_block",
+            () -> new Block(BlockBehaviour.Properties.of(Material.METAL)
+                    .strength(2f,3).requiresCorrectToolForDrops()), ModCreativeModeTab.CITADEL_MOD);
 
 
 
