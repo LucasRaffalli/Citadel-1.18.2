@@ -22,24 +22,23 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> ZORIUM_BLOCK = registerBlock("zorium_block",
             () -> new Block(BlockBehaviour.Properties.of(Material.METAL)
-                    .strength(2f,2).requiresCorrectToolForDrops()), ModCreativeModeTab.CITADEL_MOD);
+                    .strength(9f).requiresCorrectToolForDrops()), ModCreativeModeTab.CITADEL_MOD);
 
     public static final RegistryObject<Block> ZORIUM_ORE = registerBlock("zorium_ore",
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
-                    .strength(2f,2).requiresCorrectToolForDrops()), ModCreativeModeTab.CITADEL_MOD);
+                    .strength(13f).requiresCorrectToolForDrops()), ModCreativeModeTab.CITADEL_MOD);
 
     public static final RegistryObject<Block> DEEPSLATE_ZORIUM_ORE = registerBlock("deepslate_zorium_ore",
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
-                    .strength(2f,3).requiresCorrectToolForDrops()), ModCreativeModeTab.CITADEL_MOD);
-
+                    .strength(13f).requiresCorrectToolForDrops()), ModCreativeModeTab.CITADEL_MOD);
 
     public static final RegistryObject<Block> RAW_ZORIUM_BLOCK = registerBlock("raw_zorium_block",
             () -> new Block(BlockBehaviour.Properties.of(Material.METAL)
-                    .strength(2f,3).requiresCorrectToolForDrops()), ModCreativeModeTab.CITADEL_MOD);
+                    .strength(9f).requiresCorrectToolForDrops()), ModCreativeModeTab.CITADEL_MOD);
 
     public static final RegistryObject<Block> BURNING_RAW_ZORIUM_BLOCK = registerBlock("burning_raw_zorium_block",
             () -> new Block(BlockBehaviour.Properties.of(Material.METAL)
-                    .strength(2f,3).requiresCorrectToolForDrops()), ModCreativeModeTab.CITADEL_MOD);
+                    .strength(9f).requiresCorrectToolForDrops()), ModCreativeModeTab.CITADEL_MOD);
 
 
 

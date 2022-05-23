@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "citadelmod:deepslate_zorium_ore",
+    "citadelmod:zorium_ore",
+    "citadelmod:zorium_block",
+    "citadelmod:raw_zorium_block",
+    "citadelmod:burning_raw_zorium_block"
+  ]
+}
