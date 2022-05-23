@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "zorium",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "citadelmod:burning_raw_zorium"
+    }
+  },
+  "result": {
+    "item": "citadelmod:burning_raw_zorium_block"
+  }
+}

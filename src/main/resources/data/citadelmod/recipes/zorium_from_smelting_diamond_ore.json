@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "group": "zorium",
+  "ingredient": {
+    "item": "citadelmod:zorium_ore"
+  },
+  "result": "citadelmod:burning_raw_zorium",
+  "experience": 2.5,
+  "cookingtime": 300
+}

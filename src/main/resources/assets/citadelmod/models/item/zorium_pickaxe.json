@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "citadelmod:item/zorium_pickaxe"
+  }
+}

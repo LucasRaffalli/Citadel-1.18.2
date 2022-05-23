@@ -1,7 +1,6 @@
 package net.princess.citadelmod.item;
 
-import net.minecraft.world.item.CreativeModeTab;
-import net.minecraft.world.item.Item;
+import net.minecraft.world.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -24,6 +23,46 @@ public class ModItems {
 
     public static final RegistryObject<Item> BURNING_RAW_ZORIUM = ITEMS.register("burning_raw_zorium",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.CITADEL_MOD)));
+
+   public static final RegistryObject<Item> NETHERITE_HAMMER = ITEMS.register("netherite_hammer",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.CITADEL_MOD)));
+
+
+
+   public static final RegistryObject<Item> ZORIUM_PICKAXE = ITEMS.register("zorium_pickaxe",
+           () -> new PickaxeItem(Modtiers.ZORIUM,1,3,
+                   new Item.Properties().tab(ModCreativeModeTab.CITADEL_MOD)));
+
+    public static final RegistryObject<Item> ZORIUM_AXE = ITEMS.register("zorium_axe",
+            () -> new AxeItem(Modtiers.ZORIUM,8,8,
+                    new Item.Properties().tab(ModCreativeModeTab.CITADEL_MOD)));
+
+    public static final RegistryObject<Item> ZORIUM_SWORD = ITEMS.register("zorium_sword",
+            () -> new SwordItem(Modtiers.ZORIUM,8,8,
+                    new Item.Properties().tab(ModCreativeModeTab.CITADEL_MOD)));
+
+    public static final RegistryObject<Item> ZORIUM_HOE = ITEMS.register("zorium_hoe",
+            () -> new HoeItem(Modtiers.ZORIUM,1,3,
+                    new Item.Properties().tab(ModCreativeModeTab.CITADEL_MOD)));
+
+    public static final RegistryObject<Item> ZORIUM_SHOVEL = ITEMS.register("zorium_shovel",
+            () -> new ShovelItem(Modtiers.ZORIUM,1,3,
+                    new Item.Properties().tab(ModCreativeModeTab.CITADEL_MOD)));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
     public static void register(IEventBus eventBus){

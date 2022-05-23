@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "zorium",
+  "ingredients": [
+    {
+      "item": "citadelmod:raw_zorium_block"
+    }
+  ],
+  "result": {
+    "item": "citadelmod:raw_zorium",
+    "count": 9
+  }
+}

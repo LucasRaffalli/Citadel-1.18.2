@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "group": "zorium",
+  "ingredient": {
+    "item": "citadelmod:raw_zorium"
+  },
+  "result": "citadelmod:zorium_nugget",
+  "experience": 3,
+  "cookingtime": 380
+}

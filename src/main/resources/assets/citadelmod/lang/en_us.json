@@ -5,11 +5,16 @@
   "item.citadelmod.raw_zorium": "Raw Zorium",
   "item.citadelmod.burning_raw_zorium": "Burning Raw Zorium",
 
+  "item.citadelmod.zorium_pickaxe": "Zorium Pickaxe",
+  "item.citadelmod.zorium_axe": "Zorium Axe",
+  "item.citadelmod.zorium_sword": "Zorium Sword",
+  "item.citadelmod.zorium_shovel": "Zorium Shovel",
+  "item.citadelmod.zorium_hoe": "Zorium Hoe",
+  "item.citadelmod.netherite_hammer": "Netherite Hammer",
 
 
   "block.citadelmod.zorium_ore": "Zorium Ore",
   "block.citadelmod.deepslate_zorium_ore": "Deepslate Zorium Ore",
   "block.citadelmod.raw_zorium_block": "Raw Zorium Block",
   "block.citadelmod.burning_raw_zorium_block": "Burning Raw Zorium Block"
-
 }
