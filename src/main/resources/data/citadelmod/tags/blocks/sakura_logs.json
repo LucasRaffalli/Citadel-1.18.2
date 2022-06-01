@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "citadelmod:sakura_log",
+    "citadelmod:sakura_wood",
+    "citadelmod:stripped_sakura_log",
+    "citadelmod:stripped_sakura_wood"
+  ]
+}

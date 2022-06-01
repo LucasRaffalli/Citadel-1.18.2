@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "citadelmod:block/stripped_sakura_log",
+    "side": "citadelmod:block/stripped_sakura_log"
+  }
+}

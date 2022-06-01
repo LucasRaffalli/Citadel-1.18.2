@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "citadelmod:block/archaic_flower"
+  }
+}

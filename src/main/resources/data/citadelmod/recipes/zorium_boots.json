@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "zorium_armor",
+  "pattern": [
+    "#D#",
+    "S S"
+  ],
+  "key": {
+    "#": {
+      "item": "citadelmod:zorium_ingot"
+    },
+    "S": {
+      "item": "citadelmod:burning_raw_zorium"
+    },
+    "D": {
+      "item": "minecraft:netherite_boots"
+    }
+  },
+  "result": {
+    "item": "citadelmod:zorium_boots",
+    "count": 1
+  }
+}

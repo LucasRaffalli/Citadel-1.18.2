@@ -1,9 +1,12 @@
 {
+  "itemGroup.citadeltab": "Citadel Mod",
+
 
   "item.citadelmod.zorium_ingot": "Zorium Ingot",
   "item.citadelmod.zorium_nugget": "Zorium Nugget",
   "item.citadelmod.raw_zorium": "Raw Zorium",
   "item.citadelmod.burning_raw_zorium": "Burning Raw Zorium",
+
 
   "item.citadelmod.zorium_pickaxe": "Zorium Pickaxe",
   "item.citadelmod.zorium_axe": "Zorium Axe",
@@ -11,10 +14,32 @@
   "item.citadelmod.zorium_shovel": "Zorium Shovel",
   "item.citadelmod.zorium_hoe": "Zorium Hoe",
   "item.citadelmod.netherite_hammer": "Netherite Hammer",
+  "item.citadelmod.sakurabow": "Sakura Bow",
+
+
+  "block.citadelmod.potted_archaic_flower": "Potted Archaic Flower",
+  "block.citadelmod.archaic_flower": "Archaic Flower",
+
+
+  "item.citadelmod.zorium_helmet": "Zorium Helmet",
+  "item.citadelmod.zorium_chestplate": "Zorium Chestplate",
+  "item.citadelmod.zorium_leggings": "Zorium Leggings",
+  "item.citadelmod.zorium_raw_boots": "Zorium Boots",
 
 
   "block.citadelmod.zorium_ore": "Zorium Ore",
   "block.citadelmod.deepslate_zorium_ore": "Deepslate Zorium Ore",
   "block.citadelmod.raw_zorium_block": "Raw Zorium Block",
-  "block.citadelmod.burning_raw_zorium_block": "Burning Raw Zorium Block"
+  "block.citadelmod.burning_raw_zorium_block": "Burning Raw Zorium Block",
+
+  "block.citadelmod.sakura_stairs": "Sakura Stairs",
+  "block.citadelmod.sakura_slab": "Sakura Slab",
+
+  "block.citadelmod.sakura_log": "Sakura Log",
+  "block.citadelmod.sakura_wood": "Sakura Wood",
+  "block.citadelmod.sakura_planks": "Sakura Planks",
+  "block.citadelmod.stripped_sakura_log": "Stripped Sakura Log",
+  "block.citadelmod.stripped_sakura_wood": "Stripped Sakura Wood",
+  "block.citadelmod.sakura_leaves": "Sakura Leaves",
+  "block.citadelmod.sakura_sapling": "Sakura Sapling"
 }
