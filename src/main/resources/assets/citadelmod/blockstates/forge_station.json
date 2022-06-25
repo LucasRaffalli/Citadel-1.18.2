@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "citadelmod:block/forge_station" },
+    "facing=east": { "model": "citadelmod:block/forge_station", "y": 90 },
+    "facing=south": { "model": "citadelmod:block/forge_station", "y": 180 },
+    "facing=west": { "model": "citadelmod:block/forge_station", "y": 270 }
+  }
+}

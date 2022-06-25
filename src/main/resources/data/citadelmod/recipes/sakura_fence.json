@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "wooden_fence",
+  "pattern": [
+    "SKS",
+    "SKS"
+  ],
+  "key": {
+    "K": {
+      "item": "citadelmod:sakura_planks"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+
+  },
+  "result": {
+    "item": "citadelmod:sakura_fence",
+    "count": 3
+  }
+}

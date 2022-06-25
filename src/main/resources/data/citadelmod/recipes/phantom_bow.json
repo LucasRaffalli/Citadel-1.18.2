@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "citadelmod",
+  "pattern": [
+    " WM",
+    "S M",
+    " WM"
+  ],
+  "key": {
+    "W": {
+      "item": "citadelmod:phantom_wings"
+    },
+
+    "S": {
+      "item": "minecraft:stick"
+    },
+
+    "M": {
+      "item": "minecraft:string"
+    }
+
+  },
+  "result": {
+    "item": "citadelmod:phantombow"
+  }
+}

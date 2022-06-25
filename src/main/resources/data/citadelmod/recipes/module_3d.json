@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "citadelmod",
+  "pattern": [
+    "GGG",
+    "GBG",
+    "GGG"
+  ],
+  "key": {
+    "B": {
+      "item": "citadelmod:module_base"
+    },
+
+
+
+    "G": {
+      "item": "minecraft:gold_ingot"
+    }
+
+
+  },
+  "result": {
+    "item": "citadelmod:module_3d",
+    "count": 4
+  }
+}

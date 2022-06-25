@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "citadelmod",
+  "pattern": [
+    "KKK",
+    "KBK",
+    "KKK"
+
+  ],
+  "key": {
+    "K": {
+      "item": "minecraft:iron_ingot"
+    },
+
+    "B": {
+      "item": "minecraft:glass_bottle"
+    }
+  },
+  "result": {
+    "item": "citadelmod:compress_base",
+    "count": 8
+  }
+}

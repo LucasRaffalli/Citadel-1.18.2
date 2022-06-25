@@ -4,7 +4,12 @@
     "citadelmod:deepslate_zorium_ore",
     "citadelmod:zorium_ore",
     "citadelmod:zorium_block",
+    "citadelmod:zorium_blockv2",
+    "citadelmod:zorium_blockv3",
     "citadelmod:raw_zorium_block",
-    "citadelmod:burning_raw_zorium_block"
+    "citadelmod:raw_zorium_blockv2",
+    "citadelmod:burning_raw_zorium_block",
+    "citadelmod:burning_raw_zorium_blockv2",
+    "citadelmod:forge_station"
   ]
 }

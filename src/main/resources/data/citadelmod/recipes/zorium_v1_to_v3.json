@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "citadelmod:zorium_block"
+  },
+  "result": "citadelmod:zorium_blockv3",
+  "group": "zorium",
+  "count": 1
+}

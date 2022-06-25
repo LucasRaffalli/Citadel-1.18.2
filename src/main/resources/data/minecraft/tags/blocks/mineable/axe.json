@@ -1,6 +1,16 @@
 {
   "replace": false,
   "values": [
-
+    "citadelmod:sakura_door",
+    "citadelmod:sakura_slab",
+    "citadelmod:sakura_stairs",
+    "citadelmod:sakura_fence",
+    "citadelmod:sakura_fence_gate",
+    "citadelmod:sakura_planks",
+    "citadelmod:sakura_log",
+    "citadelmod:sakura_wood",
+    "citadelmod:stripped_sakura_log",
+    "citadelmod:stripped_sakura_wood",
+    "citadelmod:sakura_trapdoor"
   ]
 }

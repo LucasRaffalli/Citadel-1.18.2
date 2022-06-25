@@ -8,6 +8,7 @@ import net.minecraft.world.item.Item;
 public class ModItemProperties {
     public static void addCustomItemProperties() {
         makeBow(ModItems.SAKURABOW.get());
+        makeBow(ModItems.PHANTOMBOW.get());
     }
 
     private static void makeBow(Item item) {

@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_bottom",
+  "textures": {
+    "top": "citadelmod:block/sakura_door_top",
+    "bottom": "citadelmod:block/sakura_door_bottom"
+  }
+}

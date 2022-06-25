@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "citadelmod:zorium_axe"
+  },
+  "addition": {
+    "item": "citadelmod:module_3d"
+  },
+  "result": {
+    "item": "citadelmod:zorium_axe_3d"
+  }
+}

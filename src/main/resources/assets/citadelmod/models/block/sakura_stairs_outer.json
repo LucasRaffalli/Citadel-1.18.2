@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "citadelmod:block/sakura_planks",
+    "top": "citadelmod:block/sakura_planks",
+    "side": "citadelmod:block/sakura_planks"
+  }
+}

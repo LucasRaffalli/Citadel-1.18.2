@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "wooden_stairs",
+  "pattern": [
+    "K  ",
+    "KK ",
+    "KKK"
+  ],
+  "key": {
+    "K": {
+      "item": "citadelmod:sakura_planks"
+    }
+
+  },
+  "result": {
+    "item": "citadelmod:sakura_stairs",
+    "count": 4
+  }
+}

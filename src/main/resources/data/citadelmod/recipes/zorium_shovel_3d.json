@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "citadelmod:zorium_shovel"
+  },
+  "addition": {
+    "item": "citadelmod:module_3d"
+  },
+  "result": {
+    "item": "citadelmod:zorium_shovel_3d"
+  }
+}

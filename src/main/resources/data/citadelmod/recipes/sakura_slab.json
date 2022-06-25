@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "wooden_slab",
+  "pattern": [
+    "KKK"
+  ],
+  "key": {
+    "K": {
+      "item": "citadelmod:sakura_planks"
+    }
+
+  },
+  "result": {
+    "item": "citadelmod:sakura_slab",
+    "count": 6
+  }
+}

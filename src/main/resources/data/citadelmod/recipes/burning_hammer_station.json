@@ -1,0 +1,11 @@
+{
+  "type": "citadelmod:forge_station",
+  "ingredients": [
+    {
+      "item": "citadelmod:burning_raw_zorium"
+    }
+  ],
+  "output": {
+    "item": "citadelmod:raw_zorium"
+  }
+}

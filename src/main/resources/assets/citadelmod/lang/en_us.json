@@ -2,10 +2,36 @@
   "itemGroup.citadeltab": "Citadel Mod",
 
 
+
+  "block.citadelmod.forge_station": "Forge Station",
+
+
+
+  "item.citadelmod.zorium_sword_3d": "Zorium Sword",
+  "item.citadelmod.zorium_axe_3d": "Zorium Axe",
+  "item.citadelmod.zorium_shovel_3d": "Zorium Shovel",
+  "item.citadelmod.zorium_pickaxe_3d": "Zorium Pickaxe",
+
+
+  "item.citadelmod.module_3d": "Module 3D",
+  "item.citadelmod.module_2d": "Module 2D",
+  "item.citadelmod.module_base": "Module Base",
+
+  "item.citadelmod.water_compress": "Water Compress",
+  "item.citadelmod.compress_base": "Compress Base",
+
+  "item.citadelmod.phantom_wings": "Phantom Wings",
+  "item.citadelmod.phantombow": "Phantom Bow",
+
+
+
+
+
   "item.citadelmod.zorium_ingot": "Zorium Ingot",
   "item.citadelmod.zorium_nugget": "Zorium Nugget",
   "item.citadelmod.raw_zorium": "Raw Zorium",
   "item.citadelmod.burning_raw_zorium": "Burning Raw Zorium",
+
 
 
   "item.citadelmod.zorium_pickaxe": "Zorium Pickaxe",
@@ -17,24 +43,46 @@
   "item.citadelmod.sakurabow": "Sakura Bow",
 
 
+
+
+
+
+
   "block.citadelmod.potted_archaic_flower": "Potted Archaic Flower",
   "block.citadelmod.archaic_flower": "Archaic Flower",
+
 
 
   "item.citadelmod.zorium_helmet": "Zorium Helmet",
   "item.citadelmod.zorium_chestplate": "Zorium Chestplate",
   "item.citadelmod.zorium_leggings": "Zorium Leggings",
-  "item.citadelmod.zorium_raw_boots": "Zorium Boots",
+  "item.citadelmod.zorium_boots": "Zorium Boots",
+
+
+
+  "block.citadelmod.zorium_block": "Zorium Block",
+
+  "block.citadelmod.zorium_blockv2": "Zorium Block",
+  "block.citadelmod.zorium_blockv3": "Zorium Block",
+
+  "block.citadelmod.raw_zorium_blockv2": "Raw Zorium Block",
+  "block.citadelmod.burning_raw_zorium_blockv2": "Burning Raw Zorium Block",
 
 
   "block.citadelmod.zorium_ore": "Zorium Ore",
   "block.citadelmod.deepslate_zorium_ore": "Deepslate Zorium Ore",
+
   "block.citadelmod.raw_zorium_block": "Raw Zorium Block",
   "block.citadelmod.burning_raw_zorium_block": "Burning Raw Zorium Block",
 
+
+
   "block.citadelmod.sakura_stairs": "Sakura Stairs",
   "block.citadelmod.sakura_slab": "Sakura Slab",
-
+  "block.citadelmod.sakura_fence": "Sakura Fence",
+  "block.citadelmod.sakura_fence_gate": "Sakura Fence Gate",
+  "block.citadelmod.sakura_trapdoor": "Sakura Trapdoor",
+  "block.citadelmod.sakura_door": "Sakura Door",
   "block.citadelmod.sakura_log": "Sakura Log",
   "block.citadelmod.sakura_wood": "Sakura Wood",
   "block.citadelmod.sakura_planks": "Sakura Planks",

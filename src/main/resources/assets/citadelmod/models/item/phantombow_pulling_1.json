@@ -1,0 +1,6 @@
+{
+  "parent": "citadelmod:item/sakurabow",
+  "textures": {
+    "layer0": "citadelmod:item/phantombow_pulling_1"
+  }
+}

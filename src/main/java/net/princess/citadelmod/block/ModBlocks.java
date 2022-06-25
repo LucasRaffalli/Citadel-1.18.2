@@ -17,6 +17,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.princess.citadelmod.CitadelMod;
+import net.princess.citadelmod.block.custom.ForgeStation;
 import net.princess.citadelmod.block.custom.ModFlammableRotatedPillarBlock;
 import net.princess.citadelmod.item.ModCreativeModeTab;
 import net.princess.citadelmod.item.ModItems;
@@ -27,6 +28,16 @@ import java.util.function.Supplier;
 public class ModBlocks {
     public static final DeferredRegister<Block> BLOCKS =
             DeferredRegister.create(ForgeRegistries.BLOCKS, CitadelMod.MOD_ID);
+
+    //3dmodel
+
+    public static final RegistryObject<Block> FORGE_STATION = registerBlock("forge_station",
+            () -> new ForgeStation(BlockBehaviour.Properties.of(Material.HEAVY_METAL).noOcclusion()
+                    .strength(8f,5).requiresCorrectToolForDrops()), ModCreativeModeTab.CITADEL_MOD);
+
+
+
+    //Blocks
 
     public static final RegistryObject<Block> ZORIUM_ORE = registerBlock("zorium_ore",
             () -> new OreBlock(BlockBehaviour.Properties.of(Material.STONE)
@@ -40,13 +51,35 @@ public class ModBlocks {
             () -> new Block(BlockBehaviour.Properties.of(Material.METAL)
                     .strength(5f,5).requiresCorrectToolForDrops()), ModCreativeModeTab.CITADEL_MOD);
 
+    public static final RegistryObject<Block> ZORIUM_BLOCKV2 = registerBlock("zorium_blockv2",
+            () -> new Block(BlockBehaviour.Properties.of(Material.METAL)
+                    .strength(5f,5).requiresCorrectToolForDrops()), ModCreativeModeTab.CITADEL_MOD);
+
+    public static final RegistryObject<Block> ZORIUM_BLOCKV3 = registerBlock("zorium_blockv3",
+            () -> new Block(BlockBehaviour.Properties.of(Material.METAL)
+                    .strength(5f,5).requiresCorrectToolForDrops()), ModCreativeModeTab.CITADEL_MOD);
+
+
+
+
     public static final RegistryObject<Block> RAW_ZORIUM_BLOCK = registerBlock("raw_zorium_block",
             () -> new Block(BlockBehaviour.Properties.of(Material.METAL)
                     .strength(5f,5).requiresCorrectToolForDrops()), ModCreativeModeTab.CITADEL_MOD);
 
+    public static final RegistryObject<Block> RAW_ZORIUM_BLOCKV2 = registerBlock("raw_zorium_blockv2",
+            () -> new Block(BlockBehaviour.Properties.of(Material.METAL)
+                    .strength(5f,5).requiresCorrectToolForDrops()), ModCreativeModeTab.CITADEL_MOD);
+
+
     public static final RegistryObject<Block> BURNING_RAW_ZORIUM_BLOCK = registerBlock("burning_raw_zorium_block",
             () -> new Block(BlockBehaviour.Properties.of(Material.METAL)
                     .strength(5f,5).requiresCorrectToolForDrops()), ModCreativeModeTab.CITADEL_MOD);
+
+
+    public static final RegistryObject<Block> BURNING_RAW_ZORIUM_BLOCKV2 = registerBlock("burning_raw_zorium_blockv2",
+            () -> new Block(BlockBehaviour.Properties.of(Material.METAL)
+                    .strength(5f,5).requiresCorrectToolForDrops()), ModCreativeModeTab.CITADEL_MOD);
+
 
 
 
@@ -56,6 +89,19 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> SAKURA_SLAB = registerBlock("sakura_slab",
             () -> new SlabBlock(BlockBehaviour.Properties.of(Material.WOOD).strength(5f).requiresCorrectToolForDrops()), ModCreativeModeTab.CITADEL_MOD);
+
+    public static final RegistryObject<Block> SAKURA_FENCE = registerBlock("sakura_fence",
+            () -> new FenceBlock(BlockBehaviour.Properties.of(Material.WOOD).strength(5f).requiresCorrectToolForDrops()), ModCreativeModeTab.CITADEL_MOD);
+
+    public static final RegistryObject<Block> SAKURA_FENCE_GATE = registerBlock("sakura_fence_gate",
+            () -> new FenceGateBlock(BlockBehaviour.Properties.of(Material.WOOD).strength(5f).requiresCorrectToolForDrops()), ModCreativeModeTab.CITADEL_MOD);
+
+    public static final RegistryObject<Block> SAKURA_TRAPDOOR = registerBlock("sakura_trapdoor",
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.of(Material.WOOD).strength(5f).requiresCorrectToolForDrops()), ModCreativeModeTab.CITADEL_MOD);
+
+    public static final RegistryObject<Block> SAKURA_DOOR = registerBlock("sakura_door",
+            () -> new DoorBlock(BlockBehaviour.Properties.of(Material.WOOD).strength(5f).requiresCorrectToolForDrops()), ModCreativeModeTab.CITADEL_MOD);
+
 
 
 
